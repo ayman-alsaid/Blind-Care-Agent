@@ -1,5 +1,13 @@
 # Blind Care Agent
 
+![Human-Centered AI](https://img.shields.io/badge/Human--Centered_AI-7A6F86?style=flat-square)
+![Assistive Technology](https://img.shields.io/badge/Assistive_Technology-5F7A72?style=flat-square)
+![Voice First](https://img.shields.io/badge/Voice--First-526D82?style=flat-square)
+![Smart Silence](https://img.shields.io/badge/Smart_Silence-5B6F8A?style=flat-square)
+![Accessibility](https://img.shields.io/badge/Accessibility-596B73?style=flat-square)
+![125 Tests](https://img.shields.io/badge/Tests-125_passing-4F6B7A?style=flat-square)
+![EN + AR](https://img.shields.io/badge/Languages-EN_%2B_AR-6B6F86?style=flat-square)
+
 > **Eyes through sound — and a university in your ear.**
 
 **Voice-first assistive AI for blind and visually impaired people — designed around independence, access to knowledge, safety, and the discipline to remain silent when speech would become interference.**
@@ -341,6 +349,24 @@ Those outcomes are **NOT YET VALIDATED** by the current engineering evidence.
 The production source code is maintained privately. This public repository is an **Engineering Evidence / Technical Case Study** documenting architecture, implemented capabilities, engineering decisions, testing methodology, security lessons, accessibility boundaries, roadmap status and live evaluation while protecting proprietary implementation details and credentials.
 
 **Use the strongest claim the evidence supports — never the strongest claim the story would benefit from.**
+
+---
+
+## Repository map
+
+| Path | Purpose |
+|---|---|
+| [`README.md`](README.md) | Executive engineering narrative, evidence status, architecture, and roadmap boundaries. |
+| [`PORTFOLIO_NOTICE.md`](PORTFOLIO_NOTICE.md) | Public-repository scope, proprietary-source boundary, and evidence-use notice. |
+| [`docs/CASE_STUDY.md`](docs/CASE_STUDY.md) | Long-form technical case study and product reasoning. |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | System boundaries, component responsibilities, data flow, and trust boundaries. |
+| [`docs/ENGINEERING_DECISIONS.md`](docs/ENGINEERING_DECISIONS.md) | Key decisions, alternatives considered, trade-offs, and why Smart Silence is explicit policy. |
+| [`docs/ACCESSIBILITY.md`](docs/ACCESSIBILITY.md) | Accessibility architecture, voice-first interaction model, EN/AR RTL, and interface evidence. |
+| [`docs/TESTING_AND_VERIFICATION.md`](docs/TESTING_AND_VERIFICATION.md) | Test strategy, deterministic provider fixtures, Smart Silence regression behavior, and verification limits. |
+| [`docs/SECURITY_PRIVACY_AND_SAFETY.md`](docs/SECURITY_PRIVACY_AND_SAFETY.md) | Authorization, privacy, ownership isolation, adversarial findings, and safety boundaries. |
+| [`docs/DESIGN_GENERALIZATION.md`](docs/DESIGN_GENERALIZATION.md) | Cross-domain architectural research, valid parallels, and the rejected deaf/hard-of-hearing analogy. |
+| [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) | Current limitations, NEXT/PLANNED work, and claims that are not yet validated. |
+| [`evidence/README.md`](evidence/README.md) | Inspectable evidence index and guidance for future screenshots, runs, and measurements. |
 
 ---
 
